@@ -25,7 +25,7 @@ def process_image(request):
 def save_to_json(process_image):
     yield
     processed_image_results.append(process_image)
-    with open('../config/output.json', 'w+') as file:
+    with open('../output/output.json', 'w+') as file:
         json.dump(processed_image_results, file, indent=2)
 
 

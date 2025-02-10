@@ -12,7 +12,7 @@ class ImageProcessing:
         _, thresh = cv2.threshold(image, 127, 255, cv2.THRESH_BINARY)
         return thresh
 
-    def __save_axis_projections_to_txt(self, image, output_path='../config/output.txt'):
+    def __save_axis_projections_to_txt(self, image, output_path='../output/output.txt'):
         projection_x = np.sum(image == 255, axis=0)
         projection_y = np.sum(image == 255, axis=1)
 
