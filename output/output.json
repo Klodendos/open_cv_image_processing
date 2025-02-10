@@ -1,0 +1,26 @@
+[
+  {
+    "center_position": [
+      1,
+      11
+    ],
+    "dispersion": 122.0,
+    "deviation": 11.045361017187261
+  },
+  {
+    "center_position": [
+      0,
+      0
+    ],
+    "dispersion": 0.0,
+    "deviation": 0.0
+  },
+  {
+    "center_position": [
+      -112,
+      -65
+    ],
+    "dispersion": 16769.0,
+    "deviation": 129.49517365523704
+  }
+]
